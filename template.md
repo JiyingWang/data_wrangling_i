@@ -248,3 +248,14 @@ Import a SAS file.
 pulse_df = 
   read_sas("data/public_pulse_data.sas7bdat")
 ```
+
+## Base R
+
+Don’t do this.
+
+``` r
+litters_df = 
+  read.csv("data/FAS_litters.csv")
+
+litters_df$Gr
+```
